@@ -8,5 +8,10 @@ namespace Assets.Dune.Scripts.Base
 {
     public class Enums
     {
+        public enum GameStage : byte
+        {
+            Logo,
+            MainMenu
+        }
     }
 }
