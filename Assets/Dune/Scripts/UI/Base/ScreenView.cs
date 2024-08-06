@@ -7,6 +7,9 @@ namespace Assets.Dune.Scripts.UI.Base
 {
     public class ScreenView : MonoBehaviour
     {
+        public Enums.GameStage Type => _type;
+
+        [SerializeField] private Enums.GameStage _type;
         [SerializeField] private CanvasGroup _canvasGroup;
 
         float _alpha;
